@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { useCookies } from 'react-cookie';
 import Vaccine from './vaccine';
 import '../dashboard.css';
-
+// eslint-disable-next-line
 function Dashboard() {
     const history = useHistory();
     const [cookies, setCookie, removeCookie] = useCookies();
